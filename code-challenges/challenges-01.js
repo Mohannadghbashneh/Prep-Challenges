@@ -9,7 +9,7 @@
 //
 //  Input: [12, 32, 22, 45, 78, 12, 50]
 //  Output: 78
-//var arr=[12, 32, 22, 45, 78, 12, 50];
+var arr=[12, 32, 22, 45, 78, 12, 50];
 function findMax(arr){
   let max=arr[0];
     for (let i=1;i<arr.length;i++){
@@ -28,7 +28,7 @@ function findMax(arr){
 //
 //  Input: [20, '234', 'car', 41, 20, 'chair']
 //  Output: 81
-//var arr=[20, '234', 'car', 41, 20, 'chair'];
+var arr=[20, '234', 'car', 41, 20, 'chair'];
 function sumNums(arr){
    let sum=0;
  
