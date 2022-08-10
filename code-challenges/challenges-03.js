@@ -32,7 +32,8 @@ const objLit = (obj) => {
     
     for (const property in obj) {
         
-     console.log(`my name is ${obj["firstName"]} ${obj["lastName"]} I am ${obj["age"]} YO, and I love ${obj["hobby"]} .`);
+     let p=console.log(`my name is ${obj["firstName"]} ${obj["lastName"]} I am ${obj["age"]} YO, and I love ${obj["hobby"]} .`);
+    return p;
     }
     }
     print(obj);
@@ -63,6 +64,7 @@ const customerAndAge = (obj) => {
 
     for (const property in obj) {
       console.log(`Customer Name :${property}, Age : ${obj[property]}`);
+   
     }
         
     }
@@ -72,6 +74,5 @@ const customerAndAge = (obj) => {
 // -------------------------------------------------------------------------------------------------------
 
 module.exports = {
-  objLit,
-  customerAndAge
+  objLit,customerAndAge
 };
