@@ -28,15 +28,31 @@
 //  2- The first letter of the firstName and lastName should be capital letter
 
 const objLit = (obj) => {
-  function print(obj){
+ 
+  // const obj = {
+  // //   firstName: "mark",
+  // //   lastName: "Kimberly",
+  // //   age: 25,
+  // //   hobby: "hiking",
+  // // };
+
+
+
+
     
-    for (const property in obj) {
-        
-     let p=console.log(`my name is ${obj["firstName"]} ${obj["lastName"]} I am ${obj["age"]} YO, and I love ${obj["hobby"]} .`);
-    return p;
-    }
-    }
-    print(obj);
+function print(obj){
+ 
+for (const property in obj) {
+ 
+
+let p=console.log(`my name is ${obj["firstName"].toUpperCase()} ${obj["lastName"].toUpperCase()} I am ${obj["age"]} YO, and I love ${obj["hobby"]} .`);
+
+return p;
+}
+
+}
+
+// print(obj);
 };
 
 // -------------------------------------------------------------------------------------------------------
